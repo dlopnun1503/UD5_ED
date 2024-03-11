@@ -1,0 +1,753 @@
+title:
+Act_5.1
+Version:
+1.13.1
+valuesFileName:
+
+Num.Elems:
+16
+type:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+128 255 128
+fgrColor:
+0 0 0
+objId:
+8
+ptul:
+665 194
+ptdr:
+881 278
+Num.Links:
+4
+link objId:
+10
+link objId:
+12
+link objId:
+14
+link objId:
+24
+name:
+Libreta
+Num.Attrs:
+0
+Num.Opers:
+3
+name:
+InsertarContacto
+type:
+void
+classScope:
+0
+abstract:
+0
+vis:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+showParams:
+1
+showParamTypes:
+1
+Num.Params:
+1
+name:
+Contacto
+type:
+
+defValue:
+
+name:
+ObtenerContacto
+type:
+Contacto
+classScope:
+0
+abstract:
+0
+vis:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+showParams:
+1
+showParamTypes:
+1
+Num.Params:
+1
+name:
+string
+type:
+
+defValue:
+
+name:
+ObtenerContactos
+type:
+Contacto[]
+classScope:
+0
+abstract:
+0
+vis:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+showParams:
+1
+showParamTypes:
+1
+Num.Params:
+0
+type:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+128 255 128
+fgrColor:
+0 0 0
+objId:
+11
+ptul:
+259 198
+ptdr:
+366 261
+Num.Links:
+1
+link objId:
+12
+name:
+Cuenta
+Num.Attrs:
+2
+name:
+Email
+type:
+string
+defValue:
+
+classScope:
+0
+vis:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+derived:
+0
+name:
+Nombre
+type:
+string
+defValue:
+
+classScope:
+0
+vis:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+derived:
+0
+Num.Opers:
+0
+type:
+5
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+12
+Num.Pts:
+2
+366 227
+665 227
+objStartId:
+11
+objEndId:
+8
+roleAname:
+Cuenta
+roleBname:
+Libreta
+roleAmult:
+1
+roleBmult:
+1
+composition:
+0
+type:
+5
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+18
+Num.Pts:
+2
+731 512
+355 512
+objStartId:
+13
+objEndId:
+7
+roleAname:
+GrupoContactos
+roleBname:
+Contacto
+roleAmult:
+
+roleBmult:
+*
+composition:
+1
+type:
+5
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+14
+Num.Pts:
+2
+785 278
+786 487
+objStartId:
+8
+objEndId:
+13
+roleAname:
+Libreta
+roleBname:
+GrupoContactos
+roleAmult:
+
+roleBmult:
+*
+composition:
+1
+type:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+128 255 128
+fgrColor:
+0 0 0
+objId:
+7
+ptul:
+239 428
+ptdr:
+355 523
+Num.Links:
+2
+link objId:
+10
+link objId:
+18
+name:
+Contacto
+Num.Attrs:
+4
+name:
+Email
+type:
+string
+defValue:
+
+classScope:
+0
+vis:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+derived:
+0
+name:
+Direccion
+type:
+string
+defValue:
+
+classScope:
+0
+vis:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+derived:
+0
+name:
+Nombre
+type:
+string
+defValue:
+
+classScope:
+0
+vis:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+derived:
+0
+name:
+Telefono
+type:
+int
+defValue:
+
+classScope:
+0
+vis:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+derived:
+0
+Num.Opers:
+0
+type:
+5
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+10
+Num.Pts:
+3
+666 278
+551 450
+355 450
+objStartId:
+8
+objEndId:
+7
+roleAname:
+Libreta
+roleBname:
+Contacto
+roleAmult:
+
+roleBmult:
+*
+composition:
+1
+type:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+128 255 128
+fgrColor:
+0 0 0
+objId:
+13
+ptul:
+731 487
+ptdr:
+842 534
+Num.Links:
+3
+link objId:
+14
+link objId:
+18
+link objId:
+25
+name:
+GrupoContactos
+Num.Attrs:
+1
+name:
+Nombre
+type:
+string
+defValue:
+
+classScope:
+0
+vis:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+derived:
+0
+Num.Opers:
+0
+type:
+8
+stereotype:
+
+constraint:
+
+shortDescrLen:
+1
+shortDescr:
+1
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+20
+ptul:
+699 520
+ptdr:
+708 539
+Num.Links:
+0
+type:
+8
+stereotype:
+
+constraint:
+
+shortDescrLen:
+1
+shortDescr:
+1
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+21
+ptul:
+804 283
+ptdr:
+813 302
+Num.Links:
+0
+type:
+8
+stereotype:
+
+constraint:
+
+shortDescrLen:
+1
+shortDescr:
+1
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+22
+ptul:
+640 267
+ptdr:
+649 286
+Num.Links:
+0
+type:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+128 255 128
+fgrColor:
+0 0 0
+objId:
+23
+ptul:
+1078 347
+ptdr:
+1196 410
+Num.Links:
+2
+link objId:
+24
+link objId:
+25
+name:
+ContactoFavorito
+Num.Attrs:
+2
+name:
+Nombre
+type:
+string
+defValue:
+
+classScope:
+0
+vis:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+derived:
+0
+name:
+Telefono
+type:
+string
+defValue:
+
+classScope:
+0
+vis:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+derived:
+0
+Num.Opers:
+0
+type:
+5
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+24
+Num.Pts:
+3
+881 276
+881 347
+1077 347
+objStartId:
+8
+objEndId:
+23
+roleAname:
+Libreta
+roleBname:
+ContactoFavorito
+roleAmult:
+
+roleBmult:
+*
+composition:
+1
+type:
+5
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+25
+Num.Pts:
+3
+842 487
+841 407
+1078 407
+objStartId:
+13
+objEndId:
+23
+roleAname:
+GrupoContactos
+roleBname:
+ContactoFavorito
+roleAmult:
+
+roleBmult:
+*
+composition:
+1
+type:
+8
+stereotype:
+
+constraint:
+
+shortDescrLen:
+1
+shortDescr:
+1
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+26
+ptul:
+823 456
+ptdr:
+832 475
+Num.Links:
+0
+type:
+8
+stereotype:
+
+constraint:
+
+shortDescrLen:
+1
+shortDescr:
+1
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+27
+ptul:
+863 280
+ptdr:
+872 299
+Num.Links:
+0

@@ -1,0 +1,343 @@
+title:
+Act5.2_mejora
+Version:
+1.13.1
+valuesFileName:
+
+Num.Elems:
+9
+type:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+128 255 128
+fgrColor:
+0 0 0
+objId:
+0
+ptul:
+248 253
+ptdr:
+368 332
+Num.Links:
+2
+link objId:
+4
+link objId:
+5
+name:
+Vehiculo
+Num.Attrs:
+3
+name:
+numRuedas
+type:
+int
+defValue:
+
+classScope:
+0
+vis:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+derived:
+0
+name:
+potencia
+type:
+string
+defValue:
+
+classScope:
+0
+vis:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+derived:
+0
+name:
+numAsientos
+type:
+int
+defValue:
+
+classScope:
+0
+vis:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+derived:
+0
+Num.Opers:
+0
+type:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+128 255 128
+fgrColor:
+0 0 0
+objId:
+2
+ptul:
+602 417
+ptdr:
+692 443
+Num.Links:
+2
+link objId:
+5
+link objId:
+9
+name:
+Moto
+Num.Attrs:
+0
+Num.Opers:
+0
+type:
+2
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+4
+Num.Pts:
+3
+590 126
+307 126
+307 253
+objStartId:
+1
+objEndId:
+0
+type:
+2
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+5
+Num.Pts:
+3
+602 430
+309 430
+309 332
+objStartId:
+2
+objEndId:
+0
+type:
+2
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+6
+Num.Pts:
+3
+948 273
+648 273
+648 150
+objStartId:
+3
+objEndId:
+1
+type:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+128 255 128
+fgrColor:
+0 0 0
+objId:
+1
+ptul:
+590 103
+ptdr:
+704 150
+Num.Links:
+2
+link objId:
+4
+link objId:
+6
+name:
+Coche
+Num.Attrs:
+1
+name:
+numPuertas
+type:
+int
+defValue:
+
+classScope:
+0
+vis:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+derived:
+0
+Num.Opers:
+0
+type:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+128 255 128
+fgrColor:
+0 0 0
+objId:
+3
+ptul:
+948 260
+ptdr:
+1038 286
+Num.Links:
+1
+link objId:
+6
+name:
+BMW
+Num.Attrs:
+0
+Num.Opers:
+0
+type:
+2
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+9
+Num.Pts:
+2
+955 430
+692 430
+objStartId:
+8
+objEndId:
+2
+type:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+128 255 128
+fgrColor:
+0 0 0
+objId:
+8
+ptul:
+955 417
+ptdr:
+1045 443
+Num.Links:
+1
+link objId:
+9
+name:
+Ducati
+Num.Attrs:
+0
+Num.Opers:
+0

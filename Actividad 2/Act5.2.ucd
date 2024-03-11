@@ -1,0 +1,413 @@
+title:
+Act5.2
+Version:
+1.13.1
+valuesFileName:
+
+Num.Elems:
+12
+type:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+128 255 128
+fgrColor:
+0 0 0
+objId:
+2
+ptul:
+428 98
+ptdr:
+518 124
+Num.Links:
+2
+link objId:
+14
+link objId:
+19
+name:
+Padre
+Num.Attrs:
+0
+Num.Opers:
+0
+type:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+128 255 128
+fgrColor:
+0 0 0
+objId:
+0
+ptul:
+169 95
+ptdr:
+259 121
+Num.Links:
+1
+link objId:
+10
+name:
+Familia
+Num.Attrs:
+0
+Num.Opers:
+0
+type:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+128 255 128
+fgrColor:
+0 0 0
+objId:
+3
+ptul:
+428 294
+ptdr:
+518 320
+Num.Links:
+2
+link objId:
+12
+link objId:
+20
+name:
+Madre
+Num.Attrs:
+0
+Num.Opers:
+0
+type:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+128 255 128
+fgrColor:
+0 0 0
+objId:
+1
+ptul:
+163 263
+ptdr:
+270 326
+Num.Links:
+4
+link objId:
+10
+link objId:
+15
+link objId:
+19
+link objId:
+20
+name:
+Persona
+Num.Attrs:
+2
+name:
+DNI
+type:
+string
+defValue:
+
+classScope:
+0
+vis:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+derived:
+0
+name:
+Nombre
+type:
+string
+defValue:
+
+classScope:
+0
+vis:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+derived:
+0
+Num.Opers:
+0
+type:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+128 255 128
+fgrColor:
+0 0 0
+objId:
+4
+ptul:
+701 198
+ptdr:
+791 224
+Num.Links:
+3
+link objId:
+12
+link objId:
+14
+link objId:
+15
+name:
+Hijo
+Num.Attrs:
+0
+Num.Opers:
+0
+type:
+2
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+15
+Num.Pts:
+4
+746 224
+746 448
+270 448
+270 326
+objStartId:
+4
+objEndId:
+1
+type:
+8
+stereotype:
+
+constraint:
+
+shortDescrLen:
+1
+shortDescr:
+1
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+16
+ptul:
+220 126
+ptdr:
+229 145
+Num.Links:
+0
+type:
+5
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+10
+Num.Pts:
+2
+206 121
+206 263
+objStartId:
+0
+objEndId:
+1
+roleAname:
+Familia
+roleBname:
+Perosna
+roleAmult:
+
+roleBmult:
+1..*
+composition:
+1
+type:
+5
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+12
+Num.Pts:
+3
+472 294
+472 212
+701 212
+objStartId:
+3
+objEndId:
+4
+roleAname:
+Madre
+roleBname:
+
+roleAmult:
+1
+roleBmult:
+
+composition:
+0
+type:
+5
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+14
+Num.Pts:
+4
+512 124
+512 213
+632 212
+701 212
+objStartId:
+2
+objEndId:
+4
+roleAname:
+Padre
+roleBname:
+Hijo
+roleAmult:
+1
+roleBmult:
+*
+composition:
+0
+type:
+2
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+19
+Num.Pts:
+2
+473 124
+262 263
+objStartId:
+2
+objEndId:
+1
+type:
+2
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+20
+Num.Pts:
+2
+428 307
+270 307
+objStartId:
+3
+objEndId:
+1
