@@ -21,7 +21,7 @@ bgrColor:
 fgrColor:
 0 0 0
 objId:
-1
+38
 ptul:
 59 122
 ptdr:
@@ -29,7 +29,7 @@ ptdr:
 Num.Links:
 1
 link objId:
-7
+42
 name:
 Universidad
 Num.Attrs:
@@ -121,7 +121,7 @@ bgrColor:
 fgrColor:
 0 0 0
 objId:
-0
+39
 ptul:
 489 143
 ptdr:
@@ -129,9 +129,9 @@ ptdr:
 Num.Links:
 2
 link objId:
-7
+42
 link objId:
-9
+44
 name:
 Facultad
 Num.Attrs:
@@ -193,7 +193,7 @@ bgrColor:
 fgrColor:
 0 0 0
 objId:
-2
+40
 ptul:
 833 124
 ptdr:
@@ -201,9 +201,9 @@ ptdr:
 Num.Links:
 2
 link objId:
-9
+44
 link objId:
-11
+46
 name:
 Carrera
 Num.Attrs:
@@ -301,6 +301,218 @@ type:
 defValue:
 
 type:
+5
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+42
+Num.Pts:
+2
+240 168
+489 168
+objStartId:
+38
+objEndId:
+39
+roleAname:
+Universidad
+roleBname:
+Facultad
+roleAmult:
+
+roleBmult:
+1..*
+composition:
+1
+type:
+8
+stereotype:
+
+constraint:
+
+shortDescrLen:
+1
+shortDescr:
+1
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+43
+ptul:
+247 181
+ptdr:
+256 200
+Num.Links:
+0
+type:
+5
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+44
+Num.Pts:
+2
+608 168
+833 168
+objStartId:
+39
+objEndId:
+40
+roleAname:
+Facultad
+roleBname:
+Carrera
+roleAmult:
+
+roleBmult:
+1..*
+composition:
+1
+type:
+8
+stereotype:
+
+constraint:
+
+shortDescrLen:
+4
+shortDescr:
+1..*
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+45
+ptul:
+614 177
+ptdr:
+637 196
+Num.Links:
+0
+type:
+5
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+46
+Num.Pts:
+2
+1033 173
+1271 173
+objStartId:
+40
+objEndId:
+53
+roleAname:
+Carrera
+roleBname:
+Asignatura
+roleAmult:
+
+roleBmult:
+1..*
+composition:
+1
+type:
+8
+stereotype:
+
+constraint:
+
+shortDescrLen:
+4
+shortDescr:
+1..*
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+47
+ptul:
+1041 186
+ptdr:
+1064 205
+Num.Links:
+0
+type:
+8
+stereotype:
+
+constraint:
+
+shortDescrLen:
+4
+shortDescr:
+1..*
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+49
+ptul:
+926 459
+ptdr:
+949 478
+Num.Links:
+0
+type:
+8
+stereotype:
+
+constraint:
+
+shortDescrLen:
+1
+shortDescr:
+1
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+50
+ptul:
+1215 459
+ptdr:
+1224 478
+Num.Links:
+0
+type:
 1
 stereotype:
 
@@ -315,15 +527,213 @@ bgrColor:
 fgrColor:
 0 0 0
 objId:
-5
+51
 ptul:
-805 394
+1244 407
 ptdr:
-915 489
+1412 475
+Num.Links:
+2
+link objId:
+56
+link objId:
+57
+name:
+Matricula
+Num.Attrs:
+1
+name:
+Alumno: alumno
+type:
+
+defValue:
+
+classScope:
+0
+vis:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+derived:
+0
+Num.Opers:
+1
+name:
+anadirAlumno
+type:
+
+classScope:
+0
+abstract:
+0
+vis:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+showParams:
+1
+showParamTypes:
+1
+Num.Params:
+1
+name:
+Alumno a 
+type:
+
+defValue:
+
+type:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+128 255 128
+fgrColor:
+0 0 0
+objId:
+53
+ptul:
+1271 138
+ptdr:
+1386 201
+Num.Links:
+2
+link objId:
+46
+link objId:
+57
+name:
+Asignatura
+Num.Attrs:
+2
+name:
+Dificultad
+type:
+string
+defValue:
+
+classScope:
+0
+vis:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+derived:
+0
+name:
+Nombre
+type:
+string
+defValue:
+
+classScope:
+0
+vis:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+derived:
+0
+Num.Opers:
+0
+type:
+8
+stereotype:
+
+constraint:
+
+shortDescrLen:
+4
+shortDescr:
+1..*
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+54
+ptul:
+1337 378
+ptdr:
+1360 397
+Num.Links:
+0
+type:
+8
+stereotype:
+
+constraint:
+
+shortDescrLen:
+4
+shortDescr:
+1..*
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+55
+ptul:
+1341 225
+ptdr:
+1364 244
+Num.Links:
+0
+type:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+128 255 128
+fgrColor:
+0 0 0
+objId:
+41
+ptul:
+807 392
+ptdr:
+917 487
 Num.Links:
 1
 link objId:
-16
+56
 name:
 Alumno
 Num.Attrs:
@@ -411,7 +821,7 @@ derived:
 Num.Opers:
 0
 type:
-5
+4
 stereotype:
 
 constraint:
@@ -425,105 +835,33 @@ bgrColor:
 fgrColor:
 0 0 0
 objId:
-7
+56
 Num.Pts:
 2
-240 168
-489 168
+917 440
+1244 440
 objStartId:
-1
+41
 objEndId:
-0
+51
 roleAname:
-Universidad
+
 roleBname:
-Facultad
+
+roleAnav:
+1
+roleBnav:
+0
 roleAmult:
 
 roleBmult:
-1..*
-composition:
-1
-type:
-8
-stereotype:
 
-constraint:
-
-shortDescrLen:
-1
-shortDescr:
-1
-bgrColor:
-255 255 255
-fgrColor:
-0 0 0
-objId:
-8
-ptul:
-247 181
-ptdr:
-256 200
-Num.Links:
+derivedA:
+0
+derivedB:
 0
 type:
-5
-stereotype:
-
-constraint:
-
-shortDescrLen:
-0
-shortDescr:
-
-bgrColor:
-255 255 255
-fgrColor:
-0 0 0
-objId:
-9
-Num.Pts:
-2
-608 168
-833 168
-objStartId:
-0
-objEndId:
-2
-roleAname:
-Facultad
-roleBname:
-Carrera
-roleAmult:
-
-roleBmult:
-1..*
-composition:
-1
-type:
-8
-stereotype:
-
-constraint:
-
-shortDescrLen:
 4
-shortDescr:
-1..*
-bgrColor:
-255 255 255
-fgrColor:
-0 0 0
-objId:
-10
-ptul:
-614 177
-ptdr:
-637 196
-Num.Links:
-0
-type:
-5
 stereotype:
 
 constraint:
@@ -537,334 +875,28 @@ bgrColor:
 fgrColor:
 0 0 0
 objId:
-11
-Num.Pts:
-2
-1033 173
-1271 173
-objStartId:
-2
-objEndId:
-3
-roleAname:
-Carrera
-roleBname:
-Asignatura
-roleAmult:
-
-roleBmult:
-1..*
-composition:
-1
-type:
-8
-stereotype:
-
-constraint:
-
-shortDescrLen:
-4
-shortDescr:
-1..*
-bgrColor:
-255 255 255
-fgrColor:
-0 0 0
-objId:
-12
-ptul:
-1041 186
-ptdr:
-1064 205
-Num.Links:
-0
-type:
-2
-stereotype:
-
-constraint:
-
-shortDescrLen:
-0
-shortDescr:
-
-bgrColor:
-255 255 255
-fgrColor:
-0 0 0
-objId:
-16
-Num.Pts:
-2
-915 441
-1244 441
-objStartId:
-5
-objEndId:
-4
-type:
-8
-stereotype:
-
-constraint:
-
-shortDescrLen:
-4
-shortDescr:
-1..*
-bgrColor:
-255 255 255
-fgrColor:
-0 0 0
-objId:
-17
-ptul:
-926 459
-ptdr:
-949 478
-Num.Links:
-0
-type:
-8
-stereotype:
-
-constraint:
-
-shortDescrLen:
-1
-shortDescr:
-1
-bgrColor:
-255 255 255
-fgrColor:
-0 0 0
-objId:
-18
-ptul:
-1215 459
-ptdr:
-1224 478
-Num.Links:
-0
-type:
-1
-stereotype:
-
-constraint:
-
-shortDescrLen:
-0
-shortDescr:
-
-bgrColor:
-128 255 128
-fgrColor:
-0 0 0
-objId:
-4
-ptul:
-1244 407
-ptdr:
-1412 475
-Num.Links:
-2
-link objId:
-16
-link objId:
-19
-name:
-Matricula
-Num.Attrs:
-1
-name:
-Alumno: alumno
-type:
-
-defValue:
-
-classScope:
-0
-vis:
-1
-stereotype:
-
-constraint:
-
-shortDescrLen:
-0
-shortDescr:
-
-derived:
-0
-Num.Opers:
-1
-name:
-anadirAlumno
-type:
-
-classScope:
-0
-abstract:
-0
-vis:
-1
-stereotype:
-
-constraint:
-
-shortDescrLen:
-0
-shortDescr:
-
-showParams:
-1
-showParamTypes:
-1
-Num.Params:
-1
-name:
-Alumno a 
-type:
-
-defValue:
-
-type:
-2
-stereotype:
-
-constraint:
-
-shortDescrLen:
-0
-shortDescr:
-
-bgrColor:
-255 255 255
-fgrColor:
-0 0 0
-objId:
-19
+57
 Num.Pts:
 2
 1328 407
 1328 201
 objStartId:
-4
+51
 objEndId:
-3
-type:
+53
+roleAname:
+
+roleBname:
+
+roleAnav:
 1
-stereotype:
-
-constraint:
-
-shortDescrLen:
+roleBnav:
 0
-shortDescr:
+roleAmult:
 
-bgrColor:
-128 255 128
-fgrColor:
-0 0 0
-objId:
-3
-ptul:
-1271 138
-ptdr:
-1386 201
-Num.Links:
-2
-link objId:
-11
-link objId:
-19
-name:
-Asignatura
-Num.Attrs:
-2
-name:
-Dificultad
-type:
-string
-defValue:
+roleBmult:
 
-classScope:
+derivedA:
 0
-vis:
-1
-stereotype:
-
-constraint:
-
-shortDescrLen:
-0
-shortDescr:
-
-derived:
-0
-name:
-Nombre
-type:
-string
-defValue:
-
-classScope:
-0
-vis:
-1
-stereotype:
-
-constraint:
-
-shortDescrLen:
-0
-shortDescr:
-
-derived:
-0
-Num.Opers:
-0
-type:
-8
-stereotype:
-
-constraint:
-
-shortDescrLen:
-4
-shortDescr:
-1..*
-bgrColor:
-255 255 255
-fgrColor:
-0 0 0
-objId:
-20
-ptul:
-1337 378
-ptdr:
-1360 397
-Num.Links:
-0
-type:
-8
-stereotype:
-
-constraint:
-
-shortDescrLen:
-4
-shortDescr:
-1..*
-bgrColor:
-255 255 255
-fgrColor:
-0 0 0
-objId:
-21
-ptul:
-1341 225
-ptdr:
-1364 244
-Num.Links:
+derivedB:
 0
